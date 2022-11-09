@@ -6,10 +6,6 @@
   color: white
 }
 
-.Footer div{
-  max-width: 560px;
-}
-
 .Footer div div:nth-child(1){
   display: flex;
 }
@@ -42,6 +38,9 @@
 }
 
 @media(min-width: 768px){
+  .Footer div {
+    max-width: 560px;
+  }
   .Footer div div:nth-child(1) {
     flex-direction: row;
     text-align: center
