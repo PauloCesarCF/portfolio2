@@ -33,9 +33,9 @@ const Header = () => {
       <div className={styles.headerMobile}>
         Logo
         <div className={styles.menuMobile} onClick={specMenuMobile}>
-          <div className={styles.row1}></div>
-          <div className={styles.row2}></div>
-          <div className={styles.row3}></div>
+          <div className={menuOpen === true ? 'rowActive1' : 'rowDesactive1'}></div>
+          <div className={menuOpen === true ? 'rowActive2' : 'rowDesactive2'}></div>
+          <div className={menuOpen === true ? 'rowActive3' : 'rowDesactive3'}></div>
         </div>
       </div>
       <div className={menuOpen === true ? 'MenuMobileOpen' : 'MenuMobileClose'}>

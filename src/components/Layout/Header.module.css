@@ -6,7 +6,10 @@
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
-      padding: 15px 0px
+      padding: 15px 0px;
+      border-bottom: 1px solid white;
+      position: fixed;
+      top: 0px
     }
 
     .headerDesktop{
@@ -22,32 +25,13 @@
 
     .link {
       color: white;
-      text-decoration: none
+      text-decoration: none;
+      font-size: 20px;
+      padding: 5px 0px;
     }
 
     .menuMobile:hover{
       cursor: pointer
-    }
-  
-    .row1 {
-      width: 30px;
-      height: 5px;
-      background-color: black;
-      margin-bottom: 5px
-    }
-  
-    .row2 {
-      width: 30px;
-      height: 5px;
-      background-color: black;
-      margin-top: 5px
-    }
-  
-    .row3 {
-      width: 30px;
-      height: 5px;
-      background-color: black;
-      margin-top: 5px
     }
 }
 

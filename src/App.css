@@ -12,7 +12,50 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 0px 15px 0px;
+  padding: 55px 0px 15px 0px;
+}
+
+.rowActive1{
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  transform: rotate(45deg);
+  position: relative;
+  top: 9px;
+}
+
+.rowActive2{
+  display: none
+}
+
+.rowActive3{
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  transform: rotate(-45deg);
+  position: relative;
+  top: 4px;
+}
+
+.rowDesactive1 {
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  margin-bottom: 5px
+}
+
+.rowDesactive2 {
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  margin-top: 5px
+}
+
+.rowDesactive3 {
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  margin-top: 5px
 }
 
 .MenuMobileOpen{
@@ -20,29 +63,28 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   top: 55px;
-  width: 100%;
-  height: 100%;
-  background-color: black;
+  width: 107vw;
+  height: 30%;
+  background-color: #201F24;
   color: white;
-  left: 0px;
-  transition: left 0.5s
+  left: -39px;
+  transition: height 0.5s
 }
 
 .MenuMobileClose{
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: absolute;
   top: 55px;
   width: 100%;
-  height: 100%;
-  background-color: black;
+  height: 0%;
+  background-color: #201F24;
   color: white;
-  left: 2500px;
-  transition: left 0.5s
+  transition: height 0.5s
 }
 
 .MenuMobileOpen nav ul{
@@ -50,6 +92,10 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.MenuMobileOpen nav ul li{
+  margin: 10px 0px;
 }
 
 .MenuMobileClose nav ul{
