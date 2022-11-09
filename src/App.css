@@ -137,6 +137,12 @@ img{
   border-radius: 5px
 }
 
+@media (min-width: 320px){
+  img{
+    width: 249px
+  }
+}
+
 @media(min-width: 768px){
   div main {
     max-width: 850px;
