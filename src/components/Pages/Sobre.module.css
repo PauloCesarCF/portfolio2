@@ -1,0 +1,38 @@
+.main{
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.main div{
+  display: flex;
+  flex-direction: column
+}
+
+.main div div{
+  background-color: #e0dbdb;
+  padding: 10px 20px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column
+}
+
+.containerTecnologias p{
+  text-align: center
+}
+
+.containerTecnologias div{
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: left
+}
+
+.containerTecnologias div .logoSVG{
+  width: 30px;
+}
+
+@media(min-width: 768px){
+  .main div {
+    flex-direction: row
+  }
+}

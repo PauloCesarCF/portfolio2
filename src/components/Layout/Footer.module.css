@@ -1,0 +1,49 @@
+.Footer{
+  background-color: #201F24;
+  display: flex;
+  justify-content: center;
+  padding: 20px 100px;
+  color: white
+}
+
+.Footer div{
+  max-width: 560px;
+}
+
+.Footer div div:nth-child(1){
+  display: flex;
+}
+
+.Footer div div:nth-child(2){
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center
+}
+
+.Footer div div:nth-child(2) a,
+.Footer div div:nth-child(3) a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  text-decoration: none;
+  color: white
+}
+
+.Footer div div:nth-child(2) a:hover,
+.Footer div div:nth-child(3) a:hover {
+  opacity: 0.4;
+}
+
+.Footer div div a img{
+  width: 40px;
+  margin: 0px 10px 0px 0px
+}
+
+@media(min-width: 768px){
+  .Footer div div:nth-child(1) {
+    flex-direction: row;
+    text-align: center
+  }
+}
