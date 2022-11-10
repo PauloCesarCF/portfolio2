@@ -2,6 +2,8 @@ import {Link} from 'react-router-dom'
 import { useState } from 'react'
 import styles from './Header.module.css'
 
+import logo from '/PAULO.svg'
+
 const Header = () => {
 
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,7 +17,9 @@ const Header = () => {
   return(
     <header className={styles.header}>
       <div className={styles.headerDesktop}>
-        Logo
+        <Link to="/">
+          <img src={logo} alt="logo" className={styles.logo}/>
+        </Link>
         <nav>
           <ul>
             <li>
@@ -31,7 +35,9 @@ const Header = () => {
         </nav>
       </div>
       <div className={styles.headerMobile}>
-        Logo
+        <Link to="/">
+          <img src={logo} alt="logo" className={styles.logo}/>
+        </Link>
         <div className={styles.menuMobile} onClick={specMenuMobile}>
           <div className={menuOpen === true ? 'rowActive1' : 'rowDesactive1'}></div>
           <div className={menuOpen === true ? 'rowActive2' : 'rowDesactive2'}></div>

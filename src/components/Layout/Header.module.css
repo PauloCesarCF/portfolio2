@@ -12,6 +12,10 @@
       top: 0px
     }
 
+    .logo{
+      width: 100px
+    }
+
     .headerDesktop{
       display: none
     }
