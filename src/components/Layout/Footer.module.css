@@ -38,7 +38,7 @@
 }
 
 @media (min-width: 200px){
-  .Footer div div img{
+  .Footer div div:nth-child(1) img{
     height: 145px
   }
 }

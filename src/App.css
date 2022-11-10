@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 55px
 }
 
 body{
@@ -12,7 +13,6 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 55px 0px 15px 0px;
 }
 
 .rowActive1{
@@ -65,7 +65,7 @@ body{
   justify-content: center;
   position: fixed;
   top: 55px;
-  width: 107vw;
+  width: 207vw;
   height: 30%;
   background-color: #201F24;
   color: white;
@@ -136,6 +136,15 @@ h1{
   text-align: center;
 }
 
+a{
+  color: black;
+  text-decoration: none
+}
+
+a:hover{
+  text-decoration: underline
+}
+
 section{
   display: flex;
   flex-direction: column;
@@ -152,7 +161,7 @@ section{
   width: 75%;
 }
 
-.containerProject:nth-child(1){
+.containerProject{
   margin-bottom: 60px
 }
 
@@ -180,7 +189,6 @@ img{
 
 ::-webkit-scrollbar-thumb {
   background-color: black;
-  border-radius: 5px
 }
 
 @media (min-width: 320px){
