@@ -5,7 +5,7 @@ import reactLogo from '/react-2.svg'
 import htmlLogo from '/html-1.svg'
 import cssLogo from '/css-3.svg'
 import viteLogo from '/vitejs.svg'
-import typeScriptLogo from '/typeScript.svg'
+import typeScriptLogo from '/typescript.svg'
 
 const Sobre = () => {
   return(
