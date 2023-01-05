@@ -14,6 +14,12 @@ const Header = () => {
     console.log(menuOpen)
   }
 
+  function backToTop(){
+    window.scroll({
+      top: 0,
+    })
+  }
+
   return(
     <header className={styles.header}>
       <div className={styles.headerDesktop}>
@@ -48,13 +54,13 @@ const Header = () => {
           <nav>
             <ul>
               <li onClick={specMenuMobile}>
-                <Link className={styles.link} to="/">Home</Link>
+                <Link className={styles.link} onClick={backToTop} to="/">Home</Link>
               </li>
               <li onClick={specMenuMobile}>
-                <Link className={styles.link} to="/Projetos">Projetos</Link>
+                <Link className={styles.link} onClick={backToTop} to="/Projetos">Projetos</Link>
               </li>
               <li onClick={specMenuMobile}>
-                <Link className={styles.link} to="/Sobre">Sobre</Link>
+                <Link className={styles.link} onClick={backToTop} to="/Sobre">Sobre</Link>
               </li>
             </ul>
           </nav>

@@ -47,10 +47,10 @@ const Projects = () =>{
 
           <div className="containerProject">
             <div>
-              <a href="https://list-animes-eight.vercel.app/">
+              <a href="https://list-anime-five.vercel.app/">
                 <img src={projectAnimes} alt="foto"/>
               </a>
-              <a href="https://list-animes-eight.vercel.app/">
+              <a href="https://list-anime-five.vercel.app/">
                 <h2>Lista de animes</h2>
               </a>
               <p>O projeto consiste em apresentar animes, sejam o animes mais importantes do momento ou até mesmo mostrar animes pela categoria, e se você clicar em uma anime específico, você obtem mais informações sobre o anime que são as synopsis e um trailer, há também uma barra de pesquisa</p>
